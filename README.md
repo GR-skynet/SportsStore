@@ -1,5 +1,12 @@
 # SportsStore
 
+Consiste in un'applicazione di e-commerce semplice ma realistica ( presa dal libro Pro-Angular 6 ).
+La mia applicazione, denominata SportsStore, seguirà l'approccio classico adottato dai negozi online ovunque.
+Creerò un catalogo prodotti online che i clienti potranno sfogliare per categoria e pagina, un carrello della spesa
+dove gli utenti possono aggiungere e rimuovere prodotti e un checkout in cui i clienti possono inserire i propri dettagli di spedizione
+e inserire i loro ordini. Creerò anche un'area di amministrazione che include creazione, lettura, aggiornamento ed eliminazione
+(CRUD) funzionalità per la gestione del catalogo e lo proteggerò in modo che solo gli amministratori che hanno effettuato l'accesso possano farlo.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
 ## Development server
