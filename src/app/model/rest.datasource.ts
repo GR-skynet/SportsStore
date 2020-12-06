@@ -18,6 +18,14 @@ export class RestDataSource {
 
   constructor(private http: HttpClient) {
     this.baseUrl = `${PROTOCOL}://${location.hostname}:${PORT}/`;
+
+    /**
+     * Ora che i dati RESTful e il contenuto JavaScript e HTML dell'applicazione verranno
+     * forniti dallo stesso server, ho bisogno di cambiare l'URL che l'applicazione utilizza
+     * per ottenere i suoi dati
+     */
+    this.baseUrl = '/api/';
+
   }
 
   getProducts(): Observable<Product[]> {

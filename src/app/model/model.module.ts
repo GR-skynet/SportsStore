@@ -2,6 +2,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { AuthService } from './auth.service';
 import { Cart } from './cart.model';
+import { ConnectionService } from './connection.service';
 import { Order } from './order.model';
 import { OrderRepository } from './order.repository';
 import { ProductRepository } from './product.repository';
@@ -13,7 +14,7 @@ import { StaticDataSource } from './static.datasource';
   imports: [HttpClientModule],
   providers: [ProductRepository, Cart, Order, OrderRepository,
   { provide: StaticDataSource, useClass: RestDataSource },
-    RestDataSource, AuthService
+    RestDataSource, AuthService, ConnectionService
   ]
 
   /* static version
