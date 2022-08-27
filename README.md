@@ -9,6 +9,8 @@ e inserire i loro ordini. Creerò anche un'area di amministrazione che include c
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.0.
 
+![screen](https://user-images.githubusercontent.com/58508254/187050008-7a0b1d29-11ed-4a84-be18-5ce5cb7b333a.png)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
